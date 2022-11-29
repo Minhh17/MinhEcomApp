@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 102%;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none; 
+}
+img {
+    width: 100%;
+
+}
+.yellow {
+    background-color: yellow;
+}
+#breadcum {
+
+}
+.breadcumItems {
+    /* position: absolute; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    height: 51px;
+    background-color: #F6F7F8;
+    margin-bottom: 40px;
+}
+.nikeAirmax270 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0 8px;
+
+}
+.home a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #33A0FF ;
+    margin: 0 8px;
+}
+
+.relatedContainer {
+    width: 87.03333%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relatedHeader {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #22262A;  
+    padding-bottom: 84px;
+}
+.fourProduct {
+    max-width: 1305px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relatedProduct {
+    max-width: 100%;
+    width: 22%;
+    text-align: center;
+    border: 3px solid #F6F7F8;
+    border-radius: 7px;
+}
+.relatedName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #223263;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number1 {
+    margin: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #40BFFF;
+
+}
+.number2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-decoration-line: line-through;
+    color: #9098B1;
+    margin: 5px;
+}
+.number3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+    margin: 5px;
+}
